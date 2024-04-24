@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 7vw;
+    /* font-variant: small-caps; Letra capitular. Melhor do que essa gambiarra que fiz com os spans. */
+    padding-top: 50px;
+}
+
+span {
+    font-size: 1.4em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.estrofes {
+    font-family: 'Sriracha', sans-serif;
+    font-size: 3.5vw;
+    padding: 10vh 30px;
+    line-height: 2em;
+}
+
+#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    margin-top: 1em;
+}
+
+#img01 > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    padding: 0px 5px;
+}
+
+#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-position: left top;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.493);
+    margin-top: 1em;
+}
+
+#img02 > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    padding: 0px 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10vh;
+}
